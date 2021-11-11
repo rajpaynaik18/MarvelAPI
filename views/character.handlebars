@@ -1,0 +1,18 @@
+<main class="shadow-image">
+    <h1 class="h1-bg">Characters Found</h1>
+    <h2 class="h2-bg">{{searchTerm}}</h2>
+    {{#if result.length}}
+    <ul class="list">
+        
+        {{#each result}}
+        <li class = "list">
+            <a href="/characters/{{id}}">{{name}}</a>
+        </li>
+        {{/each}}
+    </ul>
+    {{else}}
+    <p class="error1">We're sorry, but no results were found for {{searchTerm}}.</p>
+    {{/if}}
+    
+    <a href="http://localhost:3000" class ="ag-search">Make another Search</a>
+</main>

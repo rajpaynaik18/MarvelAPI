@@ -1,0 +1,80 @@
+.shadow-image {
+  background-image: url("../avengers3.jpg");
+  overflow: hidden;
+  background-size: cover;
+  width: 100%;
+  min-height: 100vh;
+}
+.bg-avengers {
+  background-image: url("../solid1.jpg");
+  background-repeat: repeat;
+}
+
+.bg-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.comics {
+  text-align: center;
+}
+
+.sc-p {
+  text-align: center;
+}
+
+.center {
+  text-align: center;
+  color: white;
+}
+
+.center2 {
+  text-align: center;
+  font-weight: bold;
+  color: white;
+}
+
+.h1-sg {
+  text-align: center;
+}
+
+.h1-bg {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+
+.h2-bg {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+
+.ul {
+  display: table;
+  margin: 0 auto;
+}
+
+.list {
+  color: sandybrown;
+  /* text-align: center; */
+}
+
+.error {
+  text-align: center;
+  color: black;
+  font-weight: bold;
+}
+
+.error1 {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+
+.ag-search {
+  text-align: center;
+  font-weight: bold;
+  color: red;
+}
